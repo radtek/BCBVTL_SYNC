@@ -1,0 +1,7 @@
+﻿@page {
+    size: auto; /* auto is the initial value */
+    margin-top: 10mm; /* this affects the margin in the printer settings */
+    margin-bottom: 10mm;
+    margin-left: 21mm;
+    margin-right: 10mm;
+}

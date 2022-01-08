@@ -1,0 +1,213 @@
+/*!
+ * Start Bootstrap - Simple Sidebar (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+/* Toggle Styles */
+
+#wrapper {
+    display: flex;
+    flex-flow: row nowrap;
+    padding-right: 0;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    flex: 1 auto;
+}
+
+    #wrapper > div {
+        flex: 1 auto;
+    }
+
+    #wrapper.toggled {
+        padding-right: 400px;
+    }
+
+#sidebar-wrapper {
+    z-index: 0;
+    position: fixed;
+    /*right: 250px;*/
+    width: 0;
+    margin-right: -250px;
+    overflow: hidden;
+    background: #f3f3f3;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+/*
+#sidebar-wrapper > div {
+    display: block;
+}
+*/
+
+#wrapper.toggled #sidebar-wrapper {
+    width: 352px;
+}
+
+#page-content-wrapper {
+    width: 100%;
+    position: absolute;
+    flex: 1 auto;
+}
+
+#wrapper.toggled #page-content-wrapper {
+    position: absolute;
+    /*    margin-right: -250px;*/
+}
+
+#menu-toggle {
+    position: absolute;
+    top: 0px;
+    width: 15px;
+    padding: 0px 0px;
+}
+
+#sidebar-btn {
+    height: 100%;
+    width: 8px;
+    position: absolute;
+    top: 0px;
+    left: 10px;
+}
+
+.content-person-item {
+    position: relative;
+}
+/* Sidebar Styles */
+
+.sidebar-nav {
+    position: absolute;
+    top: 0;
+    width: 250px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+    .sidebar-nav li {
+        text-indent: 20px;
+        line-height: 40px;
+    }
+
+        .sidebar-nav li a {
+            display: block;
+            text-decoration: none;
+            color: #999999;
+        }
+
+            .sidebar-nav li a:hover {
+                text-decoration: none;
+                color: #fff;
+                background: rgba(255,255,255,0.2);
+            }
+
+            .sidebar-nav li a:active,
+            .sidebar-nav li a:focus {
+                text-decoration: none;
+            }
+
+    .sidebar-nav > .sidebar-brand {
+        height: 65px;
+        font-size: 18px;
+        line-height: 60px;
+    }
+
+        .sidebar-nav > .sidebar-brand a {
+            color: #999999;
+        }
+
+            .sidebar-nav > .sidebar-brand a:hover {
+                color: #fff;
+                background: none;
+            }
+
+@media(min-width:768px) {
+    #wrapper {
+        padding-right: 0;
+    }
+
+        #wrapper.toggled {
+            /*padding-right: 295px;*/
+            padding-right: 0px;
+        }
+
+    #sidebar-wrapper {
+        width: 0;
+    }
+
+    #wrapper.toggled #sidebar-wrapper {
+        width: 276px;
+        /*overflow: visible;*/
+        overflow-y: auto;
+        height: 98%;
+        top: 50px;
+    }
+
+    #page-content-wrapper {
+        /*        padding: 20px;*/
+        position: relative;
+    }
+
+    #wrapper.toggled #page-content-wrapper {
+        position: relative;
+        margin-left: 0;
+        padding-left: 260px;
+    }
+}
+
+#sb-on-off {
+    top: 40%;
+    right: 3px;
+    font-size: 18px;
+    color: #2a7044;
+}
+
+fieldset.scheduler-border {
+    border: 1px groove #ddd !important;
+    padding: 0 0.4em 0.4em 0.4em !important;
+    margin: 0 0 0.5em 0 !important;
+    -webkit-box-shadow: 0px 0px 0px 0px #000;
+    box-shadow: 0px 0px 0px 0px #000;
+}
+
+legend.scheduler-border {
+    width: inherit; /* Or auto */
+    padding: 0 10px; /* To give a bit of padding on the left and right */
+    border-bottom: none;
+    font-size: 13px;
+    margin-bottom: 0px;
+}
+
+.tblNone tr:hover td {
+    background: #fff;
+}
+
+.hangdoi {
+    width: 100%;
+    height: 350px;
+    max-height: 350px;
+}
+
+    .hangdoi table th, hangdoi table td {
+        font-size: 12px;
+    }
+
+.pageHangDoi .pagination > li > a,
+.pageHangDoi .pagination > li > span {
+    position: relative;
+    float: left;
+    padding: 2px 4px;
+    margin-left: -1px;
+    line-height: 1.42857143;
+    /*color: #337ab7;*/
+    text-decoration: none;
+    /*background-color: #fff;*/
+    border: 1px solid #ddd;
+}
+
+.trHangDoi {
+    height: 43px;
+}

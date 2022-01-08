@@ -1,0 +1,40 @@
+﻿.nav li a:hover .div-add {
+    background: #3A85C6;
+}
+
+.nav li .icon + span {
+    font-size: 1em;
+}
+
+.icon img {
+    /* width: 80px; */
+    height: 70px;
+    margin-top: 20px;
+}
+
+.div-add {
+    background: #129F5B;
+    padding: 15px 8px;
+}
+
+
+.nav li a:hover .div-add {
+    color: #fff;
+}
+
+.navbar-right > li > a:hover,
+.navbar-right > li > a:focus {
+    text-decoration: none;
+    background-color: #2a7044;
+}
+
+.nav .open > a,
+.nav .open > a:hover,
+.nav .open > a:focus {
+    background-color: #2a7044;
+    border-color: #337ab7;
+}
+
+.nav-menu {
+    padding: 6px 0px;
+}

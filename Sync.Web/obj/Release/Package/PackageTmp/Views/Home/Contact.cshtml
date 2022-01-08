@@ -1,0 +1,58 @@
+﻿@{
+    ViewBag.Title = "Gửi dữ liệu lên TTĐH";
+}
+<h2>@ViewBag.Title.</h2>
+
+<style>
+    li {
+        padding: 10px;
+    }
+</style>
+
+
+<div class="text-center">
+    <ul style="list-style:none">
+        <li>
+            @using (Html.BeginForm("GuiThongTinHoSoLenTTDH", "PA_GuiThongTinHoSoLenTTDH"))
+            {
+                <button asp-controller="PA_GuiThongTinHoSoLenTTDH" asp-action="GuiThongTinHoSoLenTTDH">Gửi thông tin hồ sơ lên TTĐH</button>
+            }
+        </li>
+        <li>
+            @using (Html.BeginForm("GuiDSDeXuat", "PA_GuiDSDeXuatLenA08"))
+            {
+                <button asp-controller="PA_GuiDSDeXuatLenA08" asp-action="GuiDSDeXuat">Gửi danh sách đề xuất lên A08</button>
+            }
+        </li>
+        <li>
+            @using (Html.BeginForm("GuiTrangThaiLenTTDH", "PA_GuiTrangThaiDongBo"))
+            {
+                <button asp-controller="PA_GuiTrangThaiDongBo" asp-action="GuiTrangThaiLenTTDH">Gửi trạng thái đồng bộ lên TTDH</button>
+            }
+        </li>
+        <li>
+            @using (Html.BeginForm("GuiKQTraHoChieuLenTTDH", "PA_GuiKetQuaTraHCLenTTDH"))
+            {
+                <button asp-controller="PA_GuiKetQuaTraHCLenTTDH" asp-action="GuiKQTraHoChieuLenTTDH">Gửi kết quả trả hộ chiếu lên TTDH</button>
+            }
+        </li>
+        <li>
+            @using (Html.BeginForm("GuiTrangThaiNhanHoChieu", "PA_GuiTrangThaiNhanHoChieu"))
+            {
+                <button asp-controller="PA_GuiTrangThaiNhanHoChieu" asp-action="GuiTrangThaiNhanHoChieu">Gửi trạng thái nhận hộ chiếu lên TTDH</button>
+            }
+        </li>
+        <li>
+            @using (Html.BeginForm("CapNhatThongTinHoSoLenTTDH", "PA_CapNhatThongTinHoSoLenTTDH"))
+            {
+                <button asp-controller="PA_CapNhatThongTinHoSoLenTTDH" asp-action="CapNhatThongTinHoSoLenTTDH">Cập nhật thông tin hồ sơ lên TTDH</button>
+            }
+        </li>
+        <li>
+            @using (Html.BeginForm("GuiCongVanTraLoiA08", "PA_GuiCongVanTraLoiA08"))
+            {
+                <button asp-controller="PA_GuiCongVanTraLoiA08" asp-action="GuiCongVanTraLoiA08">Gửi công văn trả lời A08</button>
+            }
+        </li>
+    </ul>
+</div>

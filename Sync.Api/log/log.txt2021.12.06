@@ -1,0 +1,108 @@
+﻿2021-12-06 16:18:04,835 INFO Sync.Api.Services.PAService - 21.12.06 16:18:04Get List C - AA0000285/21/P3 
+2021-12-06 16:18:05,054 INFO Sync.Api.Services.PAService - <?xml version="1.0" encoding="utf-16"?>
+<HandoverC xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <PACKAGEID>AA0000285/21/P3</PACKAGEID>
+  <TYPE_>C</TYPE_>
+  <APPROVENAME>vũ Văn Lai</APPROVENAME>
+  <COUNT_>0</COUNT_>
+  <IDQUEUE>0</IDQUEUE>
+  <CREATEDBY>ABC</CREATEDBY>
+  <CREATEDBYNAME>vũ Văn Lai</CREATEDBYNAME>
+  <CREATEDDATE>20211206000000</CREATEDDATE>
+  <handovers>
+    <DetailHandoverC>
+      <TRANSACTIONID>VP5211130010001</TRANSACTIONID>
+      <PERSONID>0</PERSONID>
+      <RECEIPTNO>VP5211130010</RECEIPTNO>
+      <REISTRATIONNO>TK2128310489</REISTRATIONNO>
+      <TRANSACTIONSTATUS>SEND_C</TRANSACTIONSTATUS>
+      <GLOBALID>0</GLOBALID>
+      <PASSPORTNO>PQ0000058</PASSPORTNO>
+      <payments>
+        <PaymentDetail>
+          <TRANSACTIONID>VP5211130010001</TRANSACTIONID>
+          <TYPEPAYMENT>HC</TYPEPAYMENT>
+          <SUBTYPEPAYMENT />
+          <PAYMENTAMOUNT>200000</PAYMENTAMOUNT>
+          <STATUSFEE>Y</STATUSFEE>
+          <NAMEPAYMENT>Cấp HC</NAMEPAYMENT>
+        </PaymentDetail>
+      </payments>
+      <info>
+        <CHIPSERIALNO />
+        <TRANSACTIONTYPE>HC</TRANSACTIONTYPE>
+        <PASSPORTNO>PQ0000058</PASSPORTNO>
+        <PASSPORTTYPE>P</PASSPORTTYPE>
+        <DATEOFISSUE>20211206000000</DATEOFISSUE>
+        <DATEOFEXPIRY>20311206000000</DATEOFEXPIRY>
+        <ICAOLINE1>P&amp;lt;VNMDUONG&amp;lt;&amp;lt;VAN&amp;lt;THANH&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;</ICAOLINE1>
+        <ICAOLINE2>PQ00000586VNM6107107F3112065243385677799&amp;lt;&amp;lt;46</ICAOLINE2>
+        <SIGNERNAME>Hoàng Thanh Tùng</SIGNERNAME>
+        <SIGNERPOSITION>Phó trưởng phòng</SIGNERPOSITION>
+        <DESCRIPTION />
+        <STATUS>ISSUANCE</STATUS>
+        <PLACEOFISSUEID>AA</PLACEOFISSUEID>
+        <PLACEOFISSUENAME>Cục Quản lý XNC - Hà Nội</PLACEOFISSUENAME>
+        <PERSONID>AA2100000050690</PERSONID>
+        <FPENCODE>string</FPENCODE>
+        <ISEPASSPORT>false</ISEPASSPORT>
+        <PRINTNAME>Cán bộ in</PRINTNAME>
+      </info>
+    </DetailHandoverC>
+  </handovers>
+</HandoverC> 
+2021-12-06 16:20:58,594 INFO Sync.Api.Services.PAService - 21.12.06 16:20:58Get List C - AA0000285/21/P3 
+2021-12-06 16:20:58,605 INFO Sync.Api.Services.PAService - <?xml version="1.0" encoding="utf-16"?>
+<HandoverC xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <PACKAGEID>AA0000285/21/P3</PACKAGEID>
+  <TYPE_>C</TYPE_>
+  <APPROVENAME>vũ Văn Lai</APPROVENAME>
+  <COUNT_>0</COUNT_>
+  <IDQUEUE>0</IDQUEUE>
+  <CREATEDBY>ABC</CREATEDBY>
+  <CREATEDBYNAME>vũ Văn Lai</CREATEDBYNAME>
+  <CREATEDDATE>20211206000000</CREATEDDATE>
+  <handovers>
+    <DetailHandoverC>
+      <TRANSACTIONID>VP5211130010001</TRANSACTIONID>
+      <PERSONID>0</PERSONID>
+      <RECEIPTNO>VP5211130010</RECEIPTNO>
+      <REISTRATIONNO>TK2128310489</REISTRATIONNO>
+      <TRANSACTIONSTATUS>SEND_C</TRANSACTIONSTATUS>
+      <GLOBALID>0</GLOBALID>
+      <PASSPORTNO>PQ0000058</PASSPORTNO>
+      <payments>
+        <PaymentDetail>
+          <TRANSACTIONID>VP5211130010001</TRANSACTIONID>
+          <TYPEPAYMENT>HC</TYPEPAYMENT>
+          <SUBTYPEPAYMENT />
+          <PAYMENTAMOUNT>200000</PAYMENTAMOUNT>
+          <STATUSFEE>Y</STATUSFEE>
+          <NAMEPAYMENT>Cấp HC</NAMEPAYMENT>
+        </PaymentDetail>
+      </payments>
+      <info>
+        <CHIPSERIALNO />
+        <TRANSACTIONTYPE>HC</TRANSACTIONTYPE>
+        <PASSPORTNO>PQ0000058</PASSPORTNO>
+        <PASSPORTTYPE>P</PASSPORTTYPE>
+        <DATEOFISSUE>20211206000000</DATEOFISSUE>
+        <DATEOFEXPIRY>20311206000000</DATEOFEXPIRY>
+        <ICAOLINE1>P&amp;lt;VNMDUONG&amp;lt;&amp;lt;VAN&amp;lt;THANH&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;</ICAOLINE1>
+        <ICAOLINE2>PQ00000586VNM6107107F3112065243385677799&amp;lt;&amp;lt;46</ICAOLINE2>
+        <SIGNERNAME>Hoàng Thanh Tùng</SIGNERNAME>
+        <SIGNERPOSITION>Phó trưởng phòng</SIGNERPOSITION>
+        <DESCRIPTION />
+        <STATUS>ISSUANCE</STATUS>
+        <PLACEOFISSUEID>AA</PLACEOFISSUEID>
+        <PLACEOFISSUENAME>Cục Quản lý XNC - Hà Nội</PLACEOFISSUENAME>
+        <PERSONID>AA2100000050690</PERSONID>
+        <FPENCODE>string</FPENCODE>
+        <ISEPASSPORT>false</ISEPASSPORT>
+        <PRINTNAME>Cán bộ in</PRINTNAME>
+      </info>
+    </DetailHandoverC>
+  </handovers>
+</HandoverC> 
+2021-12-06 16:21:11,855 ERROR Sync.Core.Helper.CallStoreCommon - Ghi log - AA0000285/21/P3-Thêm mới log thành công! 
+2021-12-06 16:21:13,693 ERROR Sync.Core.Helper.CallStoreCommon - Ghi log - AA0000285/21/P3-Thêm mới log thành công! 

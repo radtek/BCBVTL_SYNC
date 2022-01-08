@@ -1,0 +1,107 @@
+[
+  {
+    "Module": "A",
+    "Code": "A_GuiDanhSachALenTTDH",
+    "Name": "Gửi danh sách A lên TTĐH",
+    "TimeLoop": 60,
+    "Active": true
+  },
+  {
+    "Module": "A",
+    "Code": "A_GuiDanhSachBLenTTDH",
+    "Name": "Gửi danh sách B lên TTĐH",
+    "TimeLoop": 60,
+    "Active": true
+  },
+  {
+    "Module": "A",
+    "Code": "A_GuiKQTraHoChieuLenTTDH",
+    "Name": "Gửi kết quả trả hộ chiếu lên TTĐH",
+    "TimeLoop": 60,
+    "Active": true
+  },
+  {
+    "Module": "A",
+    "Code": "A_GuiKQDongBoLenTTDH",
+    "Name": "Gửi kết quả đồng bộ lên TTĐH",
+    "TimeLoop": 60,
+    "Active": true
+  },
+  {
+    "Module": "A",
+    "Code": "A_GuiThongTinHoChieuLenTTDH",
+    "Name": "Gửi thông tin hộ chiếu lên TTĐH",
+    "TimeLoop": 60,
+    "Active": true
+  },
+  {
+    "Module": "A",
+    "Code": "A_GuiThongTinHoSoDayDuLenTTDH",
+    "Name": "Gửi thông tin hồ sơ đầy đủ lên TTĐH",
+    "TimeLoop": 60,
+    "Active": true
+  },
+  {
+    "Module": "A",
+    "Code": "A_GuiThongTinHoSoLenTTDH",
+    "Name": "Gửi thông tin hồ sơ lên TTĐH",
+    "TimeLoop": 60,
+    "Active": true
+  },
+  {
+    "Module": "A",
+    "Code": "A_GuiTrangThaiNhanHoChieu",
+    "Name": "Gửi trạng thái nhận hộ chiếu",
+    "TimeLoop": 60,
+    "Active": true
+  },
+  {
+    "Module": "PA",
+    "Code": "PA_CapNhatThongTinHoSoLenTTDH",
+    "Name": "Cập nhật thông tin hồ sơ lên TTĐH",
+    "TimeLoop": 60,
+    "Active": true
+  },
+  {
+    "Module": "PA",
+    "Code": "PA_GuiCongVanTraLoiA08",
+    "Name": "Gửi công văn trả lời A08",
+    "TimeLoop": 60,
+    "Active": true
+  },
+  {
+    "Module": "PA",
+    "Code": "PA_GuiDanhSachDeXuat",
+    "Name": "Gửi danh sách đề xuất",
+    "TimeLoop": 60,
+    "Active": true
+  },
+  {
+    "Module": "PA",
+    "Code": "PA_GuiKQTraHoChieuLenTTDH",
+    "Name": "Gửi kết quả trả hộ chiếu lên TTĐH",
+    "TimeLoop": 60,
+    "Active": true
+  },
+  {
+    "Module": "PA",
+    "Code": "PA_GuiThongTinHoSoLenTTDH",
+    "Name": "Gửi thông tin số hồ sơ lên TTĐH",
+    "TimeLoop": 60,
+    "Active": true
+  },
+  {
+    "Module": "PA",
+    "Code": "PA_GuiTrangThaiNhanHoChieu",
+    "Name": "Gửi trạng thái nhận hộ chiếu lên TTĐH",
+    "TimeLoop": 60,
+    "Active": true
+  },
+  {
+    "Module": "Perso",
+    "Code": "Perso_GuiKQDongBoLenTTDH",
+    "Name": "Gửi kết quả đồng bộ lên TTĐH",
+    "TimeLoop": 60,
+    "Active": true
+  }
+]

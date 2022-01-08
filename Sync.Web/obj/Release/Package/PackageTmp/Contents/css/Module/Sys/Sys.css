@@ -1,0 +1,120 @@
+﻿@import url('Sys.css');
+.u-star {
+    font-size: 17px;
+    padding: 5px 0px;
+    color: #7b7777;
+}
+
+    .u-star:hover {
+        cursor: pointer;
+        /*color: #ffd76e;*/
+    }
+
+    .u-star.star-active {
+        color: #ffd76e;
+    }
+
+form {
+    margin-bottom: 0;
+}
+
+table {
+    font-size: inherit;
+}
+
+.line li .btn {
+    margin-left: 10px;
+}
+
+.line li:first-child .btn {
+    margin-left: 4px;
+}
+
+.table-bordered > thead > tr > td, .table-bordered > thead > tr > th {
+    border-bottom-width: 0;
+}
+
+table th {
+    background-color: #eee;
+    /*text-align:center;*/
+}
+
+table.dataTable.table-condensed > thead > tr > th {
+    padding-right: 5px;
+}
+
+.dataTables_filter {
+    display: none;
+}
+
+#treeService .line li {
+    display: block;
+}
+
+#treeSV .ztree {
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: 70%;
+}
+
+.modf-padd {
+    padding: 10px 0px;
+}
+
+/*Pagination*/
+.no-spin::-webkit-inner-spin-button, .no-spin::-webkit-outer-spin-button {
+    -webkit-appearance: none !important;
+    margin: 0 !important;
+    -moz-appearance: textfield !important;
+}
+
+.btn > i {
+    padding: 0px 5px 0px 0px;
+}
+
+.modal-height {
+    height: 60%;
+}
+
+#pageSize {
+    width: 50px;
+}
+
+.paging {
+    display: block;
+    padding: 2px;
+}
+
+    .paging i {
+        top: 0px;
+    }
+
+.paging-page {
+    background-color: white;
+    position: fixed;
+    bottom: 0px;
+    background-color: #FCFCFC 0.8;
+    padding: 0px 10px 0px 10px;
+    z-index: 99;
+    height: 25px;
+}
+
+.pagination i {
+    top: 0px;
+    padding: 3px 0px;
+}
+/*End Pagination*/
+
+
+/*input[type="checkbox"] {
+    display: none;
+}
+
+    input[type="checkbox"] + label span {
+         margin:-1px 4px 0 0;
+    }*/
+
+
+.btn{
+    font-size: 14px !important;
+}

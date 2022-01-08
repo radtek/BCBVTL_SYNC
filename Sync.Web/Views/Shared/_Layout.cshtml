@@ -1,0 +1,90 @@
+﻿<!DOCTYPE html>
+<html ng-app="e-app">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>HCĐT - @ViewBag.Title</title>
+    <link rel="shortcut icon" href="~/Contents/Images/1.svg" type="image/svg" />
+    <link href="/Contents/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="/Contents/css/font-awesome.min.css" rel="stylesheet">
+    <link href="/Contents/bootstrap/css/bootstrap-modal.css" rel="stylesheet">
+    <link href="/Contents/bootstrap/css/bootstrap-table.css" rel="stylesheet">
+    <link href="/Contents/css/general.css" rel="stylesheet">
+    <link href="/Contents/css/style-table.css" rel="stylesheet">
+    <link href="/Contents/bootstrap/css/bootstrap-datetimepicker.css" rel="stylesheet">
+    <link href="/Contents/bootstrap/css/bootstrap-select.css" rel="stylesheet">
+    <link href="/Contents/css/toastr.css" rel="stylesheet">
+    <link href="/Contents/css/style.css" rel="stylesheet">
+    <link href="/Contents/css/Module/Sys/Layout.css" rel="stylesheet">
+    <link href="/Contents/css/simple-sidebar.css" rel="stylesheet">
+    <link href="/Contents/select2/select2.css" rel="stylesheet">
+    <link href="/Contents/select2/select2.min.css" rel="stylesheet">
+    <link href="/Contents/css/viewer.css" rel="stylesheet">
+    <style>
+        .nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
+            background-color: transparent;
+        }
+
+        .breakMenu {
+            border-top: 1px solid #000 !important;
+        }
+    </style>
+</head>
+<body>
+    <div class="container-fluid banner none-padding">
+        <div class="header">
+            <div style="display: flex;">
+                <div style="width: 200px; padding-left: 15px;">
+                    <a href="/Sys/HomePage"><img class="logo" src="~/Contents/images/logo1.svg"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="flexbox" style="margin-top: 49px;">
+        <div class="leftpanel">
+
+        </div>
+        <div id="wrapper" class="main-content">
+            @RenderBody()
+        </div>
+    </div>
+    <script src="/Contents/bootstrap/js/jquery.min.js"></script>
+    <script src="/Contents/bootstrap/js/bootstrap.min.js"></script>
+    <script src="/Contents/js/tableHeadFixer.js"></script>
+    <script src="/Contents/bootstrap/js/bootstrap-select.min.js"></script>
+    <script src="/Contents/js/moment-with-locales.js"></script>
+    <script src="/Contents/bootstrap/js/bootstrap-datetimepicker.js"></script>
+    <script src="/Contents/js/jquery.dataTables.min.js"></script>
+    <script src="/Contents/js/dataTables.bootstrap.min.js"></script>
+    <script src="/Contents/js/Common.js"></script>
+    <script src="/Contents/js/toastr.min.js"></script>
+    <script src="/Contents/js/date.js"></script>
+    <script src="/Contents/js/angularjs/angular.js"></script>
+    <script src="/Contents/js/angularjs/angular-local-storage.js"></script>
+    <script src="/Contents/js/jquery.mask.min.js"></script>
+    <script src="/Contents/js/g-box.js"></script>
+    <script src="/Contents/bootstrap/js/ui-bootstrap-tpls.min.js"></script>
+    <script src="/Contents/js/viewer.js"></script>
+    <script src="/app/app.js"></script>
+    <script src="/app/services/authData.js"></script>
+    <script src="/app/services/authenticationService.js"></script>
+    <script src="/app/services/apiservices.js"></script>
+    <script src="/app/services/loginService.js"></script>
+    <script src="/app/directives/pagerDirective.js"></script>
+    <script src="/app/directives/dirPagination.js"></script>
+    <script src="/Contents/select2/select2.js"></script>
+    <script src="/Contents/select2/js/select2.full.min.js"></script>
+    <script src="/Contents/select2/js/angular-sanitize.js"></script>
+
+    <script src="/Contents/bootstrap/owl.carousel.2.0.0-beta.2.4/owl.carousel.min.js"></script>
+
+    <script src="/Contents/js/bootstrap-confirmation.js"></script>
+    <script src="/Contents/js/bootbox.min.js"></script>
+    <script src="/Contents/js/g-box.js"></script>
+
+    <script src="/Contents/js/jquery.ztree.core.js"></script>
+    <script src="/Contents/js/jquery.ztree.excheck.js"></script>
+    @RenderSection("scripts", required: false)
+</body>
+
+</html>

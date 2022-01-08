@@ -1,0 +1,14 @@
+F:\Code\EPP_DC\Sync\Sync\Sync.Core\bin\Release\Sync.Core.dll.config
+F:\Code\EPP_DC\Sync\Sync\Sync.Core\bin\Release\Sync.Core.dll
+F:\Code\EPP_DC\Sync\Sync\Sync.Core\bin\Release\Sync.Core.pdb
+F:\Code\EPP_DC\Sync\Sync\Sync.Core\bin\Release\log4net.dll
+F:\Code\EPP_DC\Sync\Sync\Sync.Core\bin\Release\Newtonsoft.Json.dll
+F:\Code\EPP_DC\Sync\Sync\Sync.Core\bin\Release\Oracle.ManagedDataAccess.dll
+F:\Code\EPP_DC\Sync\Sync\Sync.Core\bin\Release\log4net.xml
+F:\Code\EPP_DC\Sync\Sync\Sync.Core\bin\Release\Newtonsoft.Json.xml
+F:\Code\EPP_DC\Sync\Sync\Sync.Core\obj\Release\Sync.Core.csprojAssemblyReference.cache
+F:\Code\EPP_DC\Sync\Sync\Sync.Core\obj\Release\Sync.Core.csproj.CoreCompileInputs.cache
+F:\Code\EPP_DC\Sync\Sync\Sync.Core\obj\Release\Sync.Core.csproj.CopyComplete
+F:\Code\EPP_DC\Sync\Sync\Sync.Core\obj\Release\Sync.Core.dll
+F:\Code\EPP_DC\Sync\Sync\Sync.Core\obj\Release\Sync.Core.pdb
+F:\Code\EPP_DC\Sync\Sync\Sync.Core\bin\Release\EppMaHoa.dll

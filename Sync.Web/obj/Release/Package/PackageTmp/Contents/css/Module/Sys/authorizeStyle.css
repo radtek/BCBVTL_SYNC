@@ -1,0 +1,21 @@
+﻿.except {
+    text-align: center;
+    margin-top: 30px;
+}
+
+    .except img {
+        width: 20%;
+        height: 55%;
+        margin-top: 0px;
+    }
+
+.page {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+    .page h2 {
+        font-size: 4em;
+        color: rgb(99, 44, 37);
+        font-weight: bold;
+    }

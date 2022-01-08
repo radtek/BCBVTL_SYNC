@@ -1,0 +1,103 @@
+﻿
+@{
+    ViewBag.Title = "Quản lý tiến trình đồng bộ";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    Response.AppendHeader("Cache-Control", "no-cache, no-store, must-revalidate");
+    Response.AppendHeader("Pragma", "no-cache");
+    Response.AppendHeader("Expires", "0");
+}
+
+<div ng-controller="homecontroller as controller">
+    <div class="content-item-title">
+        <div class="oplog-title__txt" style="color: #4A6277; padding: 15px;">QUẢN LÝ TIẾN TRÌNH ĐỒNG BỘ</div>
+    </div>
+    <div class="row col-sm-12">
+        <div class="col-sm-6">
+            <table class="table table-hover table-bordered">
+                <thead>
+                    <tr>
+                        <th class="text-center font-bold">STT</th>
+                        <th class="text-center font-bold">Tiến trình</th>
+                        <th class="text-center font-bold">Module</th>
+                        <th class="text-center font-bold">Hoạt động</th>
+                        <th class="text-center font-bold">Chu kỳ lặp (s)</th>
+                    </tr>
+                </thead>
+                <tbody ng-repeat="item in listProcess track by $index">
+                    <tr ng-click="selectProcess(item)" ng-class="{'selected':item.Code == process.Code}">
+                        <td class="text-center">{{$index+1}}</td>
+                        <td>{{item.Name}}</td>
+                        <td class="text-center">{{item.Module}}</td>
+                        <td class="text-center">{{item.Active? "Đang hđ":"Dừng"}}</td>
+                        <td class="text-right">{{item.TimeLoop}}</td>
+                    </tr>
+                </tbody>
+            </table>
+            <br />
+            <div>
+                <label>Trung tâm điều hành: </label>
+                <select ng-model="KhuVuc" ng-change="changeKhuVuc(KhuVuc)">
+                    <option value="MB">Miền Bắc</option>
+                    <option value="MN">Miền Nam</option>
+                </select>
+            </div>
+            <div>
+                <b>Gửi lại dữ liệu</b>
+                <div>
+                    <label>Tên tiến trình: </label>
+                    <select id="data_type" ng-model="dataType" ng-change="onchangeDataType(dataType)">
+                        <option ng-repeat="item in listDataTypes" value="{{item.TypeDataName}}">{{item.TypeDataName}}</option>
+                    </select>
+                    <button ng-click="getData()">Lấy dữ liệu</button>
+                    <button ng-click="resendData()">Gửi lại</button>
+                </div>
+                <div>
+                    <table class="table table-hover table-bordered">
+                        <thead>
+                            <tr>
+                                <th class="text-center font-bold">STT</th>
+                                <th class="text-center font-bold">Mã</th>
+                                <th class="text-center font-bold">Ngày tạo</th>
+                            </tr>
+                        </thead>
+                        <tbody ng-repeat="item in danhSachHoSo track by $index">
+                            <tr ng-class="{'selected':item.Code == process.Code}">
+                                <td class="text-center">{{$index+1}}</td>
+                                <td>{{item.Object_Code}}</td>
+                                <td class="text-center">{{item.CreateTS}}</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <div class="row" style="margin-top: 20px;">
+                <div class="col-sm-5 form-group">
+                    <label>Tên tiến trình</label>
+                    <input class="form-control" ng-model="process.Name" readonly />
+                </div>
+                <div class="col-sm-2 form-group">
+                    <label>Hoạt động</label>
+                    <input type="checkbox" style="margin: 3px 0px 0px 10px;" ng-model="process.Active" />
+                </div>
+                <div class="col-sm-3 form-group">
+                    <label>Chu kỳ lặp (s)</label>
+                    <input type="number" class="form-control text-right" ng-model="process.TimeLoop" />
+                </div>
+                <button type="button" class="btn btn-success" ng-click="updateProcess()">Áp dụng</button>
+            </div>
+            <div class="row" style="margin-top: 20px;">
+                <textarea id="jobResult" ng-model="logFile" readonly style="margin: 0px; width: 100%; height: 450px">
+                    
+                </textarea>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+@section scripts {
+    <script src="~/app/controllers/homecontroller.js"></script>
+
+}
